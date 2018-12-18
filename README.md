@@ -16,11 +16,13 @@ Then, by running the script, a perl code is called to search for the primer and 
 Input read:
 
 HSHSHSHSHSHSPPPPPPPPPPPPPPPPPATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+
 -HS bases -- primer bases -- Read
 
 In the example above, program will search for "PPPPPPPPPPPPPPPPP" in every give read, trims off all the "HSHSHSHSHSHS" bases, and the resulting read will be:
 
 PPPPPPPPPPPPPPPPPATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+
 primer bases  -- Read
 
 The length of the HS or the primer sequence will not affect the results, since the program will look for the exact match for input primer sequence.
